@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SIGEM" id="46CC89DE-A597-71FA-B0CD-DAF39CC3408F" version="3.5">
-<createdBy>benja</createdBy>
-<createdTime>2025-05-01 19:44:59 UTC</createdTime>
-<ownerDesignName>SIGEM</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>46CC89DE-A597-71FA-B0CD-DAF39CC3408F</designId>
-</OSDM_Design>
