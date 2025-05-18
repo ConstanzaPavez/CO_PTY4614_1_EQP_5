@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="508ABB65-815B-DB43-A477-E72E69C1DEA4" name="ROL">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>D883F204-DCE1-E98C-9F03-BD2D58BD54A7</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_rol" id="150C0A21-ECA6-5222-703E-B8E930AA4339">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>1230B6D4-E6C5-51EC-A4D4-0695A8BA8142</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_rol" id="0BEEC23E-CD76-DAB7-DD8E-A4584249EF11">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>3CEE5912-3E7B-CD58-89D8-E2168C88269A</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18D02FAC-82B4-44F5-5B5F-5F1CC96E2A4A" name="ROL_PK">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>862C7AEC-DBE5-A058-D3CF-6E89B6D43CAC</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="150C0A21-ECA6-5222-703E-B8E930AA4339"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

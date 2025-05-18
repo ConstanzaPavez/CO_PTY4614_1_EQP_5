@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A75E610-E7F9-D6BA-54C7-F56500D904C2" name="ESTADO_SOLICITUD">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:10:14 UTC</createdTime>
+<ownerDesignName>SIGEM</ownerDesignName>
+<engineerTo>
+<item key="95B6BC2A-F01F-1B03-1666-007ACEEF0875" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_estado_solicitud" id="91F6FCD5-C787-375D-534E-3C5C1C47D8DC">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:10:26 UTC</createdTime>
+<ownerDesignName>SIGEM</ownerDesignName>
+<engineerTo>
+<item key="95B6BC2A-F01F-1B03-1666-007ACEEF0875" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_solicitud" id="C8DEBD4F-AC4C-71EB-4AFD-6A001241A819">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:10:44 UTC</createdTime>
+<ownerDesignName>SIGEM</ownerDesignName>
+<engineerTo>
+<item key="95B6BC2A-F01F-1B03-1666-007ACEEF0875" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_solicitud" id="0B7023DA-D0BB-A543-B16E-FD6EE2E1B85F">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:25:24 UTC</createdTime>
+<generatorID>F1623239-C897-F802-3BAB-A717A8D04F21</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<engineerTo>
+<item key="95B6BC2A-F01F-1B03-1666-007ACEEF0875" value="true"/>
+</engineerTo>
+<referedAttribute>67623104-AA79-1072-3054-A61C54A75031</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CF384788-5447-8CD6-469D-5E82531669D1" name="ESTADO_SOLICITUD PK">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:10:39 UTC</createdTime>
+<ownerDesignName>SIGEM</ownerDesignName>
+<engineerTo>
+<item key="95B6BC2A-F01F-1B03-1666-007ACEEF0875" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>91F6FCD5-C787-375D-534E-3C5C1C47D8DC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

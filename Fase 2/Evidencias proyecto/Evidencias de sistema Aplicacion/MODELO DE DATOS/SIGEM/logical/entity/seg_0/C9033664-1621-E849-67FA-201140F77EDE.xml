@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C9033664-1621-E849-67FA-201140F77EDE" name="MATERIAL">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 19:46:19 UTC</createdTime>
+<ownerDesignName>SIGEM</ownerDesignName>
+<engineerTo>
+<item key="95B6BC2A-F01F-1B03-1666-007ACEEF0875" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_material" id="1C8BF002-E20D-61D0-C88E-57811B9F433B">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 19:46:45 UTC</createdTime>
+<ownerDesignName>SIGEM</ownerDesignName>
+<engineerTo>
+<item key="95B6BC2A-F01F-1B03-1666-007ACEEF0875" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_material" id="34092B22-F95F-6787-6344-937019926F56">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 19:47:07 UTC</createdTime>
+<ownerDesignName>SIGEM</ownerDesignName>
+<engineerTo>
+<item key="95B6BC2A-F01F-1B03-1666-007ACEEF0875" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contenido_material" id="9842E78E-2B5B-E1FF-874A-F2B41DB2952B">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 19:47:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[ejemplo si es solo un dron o un dron con su cargador, elice de repuesto y bateria intercambiable]]></commentInRDBMS>
+<ownerDesignName>SIGEM</ownerDesignName>
+<engineerTo>
+<item key="95B6BC2A-F01F-1B03-1666-007ACEEF0875" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="img_material" id="34C4824B-445B-852A-3FEC-10DF82E01CB7">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 19:48:06 UTC</createdTime>
+<ownerDesignName>SIGEM</ownerDesignName>
+<engineerTo>
+<item key="95B6BC2A-F01F-1B03-1666-007ACEEF0875" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_barra" id="D09DAAE5-F3C7-9988-2C9A-C43DC3F493BE">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 19:48:21 UTC</createdTime>
+<ownerDesignName>SIGEM</ownerDesignName>
+<engineerTo>
+<item key="95B6BC2A-F01F-1B03-1666-007ACEEF0875" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modelo_material" id="CB970585-1DD0-3F19-F7E9-8392F5581574">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 19:48:32 UTC</createdTime>
+<ownerDesignName>SIGEM</ownerDesignName>
+<engineerTo>
+<item key="95B6BC2A-F01F-1B03-1666-007ACEEF0875" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="color" id="370DA862-478C-300C-D62C-4D902BE5A67C">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 19:48:58 UTC</createdTime>
+<ownerDesignName>SIGEM</ownerDesignName>
+<engineerTo>
+<item key="95B6BC2A-F01F-1B03-1666-007ACEEF0875" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_categoria" id="A002A9D6-FD65-9F8C-0931-325B08F84581">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:23:52 UTC</createdTime>
+<generatorID>D01FE27D-22AE-48AC-4639-48FB395AFBA1</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<engineerTo>
+<item key="95B6BC2A-F01F-1B03-1666-007ACEEF0875" value="true"/>
+</engineerTo>
+<referedAttribute>26BBE15C-55C3-BE32-ECCA-2AF26E6EBA98</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo_material" id="582B8706-487D-85D8-6ECA-20F9E279F417">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:23:58 UTC</createdTime>
+<generatorID>876189B7-C497-5AAD-C568-51E2F8B19381</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<engineerTo>
+<item key="95B6BC2A-F01F-1B03-1666-007ACEEF0875" value="true"/>
+</engineerTo>
+<referedAttribute>29D4E334-214D-EC82-53AB-C23C50D18170</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="16938243-A031-07FA-90F7-DC1AB5E446DB" name="MATERIAL PK">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 19:46:56 UTC</createdTime>
+<ownerDesignName>SIGEM</ownerDesignName>
+<engineerTo>
+<item key="95B6BC2A-F01F-1B03-1666-007ACEEF0875" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1C8BF002-E20D-61D0-C88E-57811B9F433B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

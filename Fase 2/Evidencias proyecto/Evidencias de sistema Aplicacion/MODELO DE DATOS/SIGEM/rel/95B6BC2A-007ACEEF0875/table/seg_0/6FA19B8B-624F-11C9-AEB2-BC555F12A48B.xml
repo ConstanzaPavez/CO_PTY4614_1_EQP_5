@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6FA19B8B-624F-11C9-AEB2-BC555F12A48B" name="LOG_STOCK">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>1CF2D930-ED88-1403-B928-EF6B9ED2644A</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_log_stock" id="87E52601-A7DD-0FD4-FC69-3DA8EAABFCB6">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>87B6301F-A2DE-0DF0-2E59-5EBED8479AC0</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_movimiento" id="C059B6C4-1DA6-8DFB-C061-72C20AA30268">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>F3FCB1C6-4EDA-B365-306C-1D6AAFA15D26</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="E16BDF86-7F0B-746C-296A-6155D859C7A1">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>22C936D7-EE3A-CE9E-F519-18B36AEEE25E</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_movimiento" id="52A1A54C-4BC8-7F97-BA33-B39E05B44575">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>C773BFAB-DA42-66D6-584C-DAAC0D3395F5</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<ownDataTypeParameters>,0,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comentario_movimiento" id="B0125BC1-7189-9CF4-95E6-A497749DEDC1">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>B4DD01F6-48DB-6BEB-B846-8C237D10D0A0</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_id_usuario" id="CE677C3B-18B4-3D90-0CF0-5F7733ECBA65">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>A35CBE86-3229-06EF-99CA-AD28030678BF</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA45F055-EFAC-F729-5903-A3B17DA623D4" referredColumn="5D757010-50C2-32AD-D454-B6DF76E5FC11"/>
+</associations>
+</Column>
+<Column name="MATERIAL_id_material" id="AA37237C-F869-CBDC-7F7D-5B6BB02693D4">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>E2E5B476-95AC-1CAB-C0B3-C6F34DBAB9E7</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4EA1DEDA-3415-9545-3752-E2DA6C5B2548" referredColumn="9525FC38-5823-443C-16BE-9917F5DDDBFA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="387E0C99-C088-7340-0D9E-6D1588768454" name="LOG_STOCK_PK">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>9B7E4F10-31EC-6715-308C-491EC7DCE4E5</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87E52601-A7DD-0FD4-FC69-3DA8EAABFCB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FBFE213-D353-E91C-C6AD-A3D60AB68266" name="LOG_STOCK_USUARIO_FK">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>088FF460-D405-0C01-D1DB-EB2D850015E8</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE677C3B-18B4-3D90-0CF0-5F7733ECBA65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66F0E54A-F695-D659-6E99-22551AB3A106" name="LOG_STOCK_MATERIAL_FK">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>5831DC8F-860C-C56D-1DFD-0680628582D2</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA37237C-F869-CBDC-7F7D-5B6BB02693D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

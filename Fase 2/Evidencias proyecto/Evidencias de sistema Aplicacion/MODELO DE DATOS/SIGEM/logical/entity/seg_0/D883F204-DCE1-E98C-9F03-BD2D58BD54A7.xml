@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D883F204-DCE1-E98C-9F03-BD2D58BD54A7" name="ROL">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:15:40 UTC</createdTime>
+<ownerDesignName>SIGEM</ownerDesignName>
+<engineerTo>
+<item key="95B6BC2A-F01F-1B03-1666-007ACEEF0875" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_rol" id="1230B6D4-E6C5-51EC-A4D4-0695A8BA8142">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:15:45 UTC</createdTime>
+<ownerDesignName>SIGEM</ownerDesignName>
+<engineerTo>
+<item key="95B6BC2A-F01F-1B03-1666-007ACEEF0875" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_rol" id="3CEE5912-3E7B-CD58-89D8-E2168C88269A">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:15:54 UTC</createdTime>
+<ownerDesignName>SIGEM</ownerDesignName>
+<engineerTo>
+<item key="95B6BC2A-F01F-1B03-1666-007ACEEF0875" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="862C7AEC-DBE5-A058-D3CF-6E89B6D43CAC" name="ROL PK">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:15:53 UTC</createdTime>
+<ownerDesignName>SIGEM</ownerDesignName>
+<engineerTo>
+<item key="95B6BC2A-F01F-1B03-1666-007ACEEF0875" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1230B6D4-E6C5-51EC-A4D4-0695A8BA8142</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

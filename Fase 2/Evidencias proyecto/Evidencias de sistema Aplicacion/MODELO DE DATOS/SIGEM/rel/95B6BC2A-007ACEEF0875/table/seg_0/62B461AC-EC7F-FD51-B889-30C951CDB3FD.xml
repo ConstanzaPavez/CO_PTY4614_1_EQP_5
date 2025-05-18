@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="62B461AC-EC7F-FD51-B889-30C951CDB3FD" name="SOLICITUD">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>AF7F416C-8676-8835-1939-409F69906722</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_solicitud" id="9C2E30E1-36AE-7A21-6EE4-9557CF51EC39">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>67623104-AA79-1072-3054-A61C54A75031</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_solicitud" id="73E4B9EC-73CD-D571-8335-3D250929DBA2">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[creacion]]></commentInRDBMS>
+<generatorID>D58B2ADC-72FB-C482-7FC8-EE9E1530A8BE</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<ownDataTypeParameters>,0,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="razon_solicitud" id="9BF30512-401C-8CAF-4A7E-95E5E9A69C41">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>451D16C5-99BC-2082-BDF9-4A4118495EAF</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_respuesta" id="6FB48DC6-A9FE-B99D-F233-0A8CDC4F3AC1">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>495CCF88-B5F3-8476-0A1D-E83828ABB761</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<ownDataTypeParameters>,0,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comentario_respuesta" id="CEBFDBC4-1E63-6150-16F6-5464B7E3F70A">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>482B3576-0233-6397-981D-0F65D5FF016C</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_desde" id="41FA7A05-40E1-8FF6-F016-65027F90B673">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>8D777641-390C-4C01-B349-71EFBCCF9118</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_hasta" id="9AA35FED-5129-1589-6845-4E0988C480A5">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>1D49B4B5-D642-67CB-6822-BBAE4E24D423</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_devolucion" id="DC6596AD-14D2-5C54-BED5-82CC26FDEC61">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>3D783400-051A-E983-6751-2DD49D29D606</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<ownDataTypeParameters>,0,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_id_usuario" id="C5795DE2-9D7A-6D0B-D33B-60CC6CBDAF9C">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>F60FA6AB-3CCD-2E47-C47A-4B85FA344266</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="829043F9-F28E-380A-088A-6BA0918B57F1" referredColumn="5D757010-50C2-32AD-D454-B6DF76E5FC11"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F90B564-713D-49B0-CC0D-A8756D8FC367" name="SOLICITUD_PK">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>50101ADE-B70D-BD45-F861-ECC9333BA8A4</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C2E30E1-36AE-7A21-6EE4-9557CF51EC39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB08590F-32A5-2A5F-F5F1-A540B0B18FD4" name="SOLICITUD_USUARIO_FK">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>A44AAD2E-78CE-F9F9-F562-99A7D03C2FC4</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5795DE2-9D7A-6D0B-D33B-60CC6CBDAF9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

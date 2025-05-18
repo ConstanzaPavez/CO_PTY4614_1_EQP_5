@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="806EA701-6661-AF0E-4620-69FE5E709119" containerWithKeyObject="D16A929F-B79F-FB5F-BF6C-4DCF1EB485BE" localFKIndex="7AD22DBE-ED69-E5FF-9E85-6EFC394FB7C5" name="SOLICITUD_MATERIAL_SOLICITUD_FK">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>F7A4794F-3050-330B-1B15-3CAA5F690BDC</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<referredTableLongName>SOLICITUD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>62B461AC-EC7F-FD51-B889-30C951CDB3FD</referredTableID>
+<keyObject>9F90B564-713D-49B0-CC0D-A8756D8FC367</keyObject>
+<referredKeyID>9F90B564-713D-49B0-CC0D-A8756D8FC367</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_solicitud</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

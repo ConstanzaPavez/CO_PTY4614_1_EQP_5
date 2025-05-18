@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D16A929F-B79F-FB5F-BF6C-4DCF1EB485BE" name="SOLICITUD_MATERIAL">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>8BFE01F6-8081-11EA-AC58-9A2B45DD02BA</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_solicitud_material" id="27E75E32-0E6C-7464-42DE-5F41964CA97F">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>F04F841D-F91C-5BFC-9F79-7C39741F147D</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="4586A84C-3E0B-B0D0-88BE-51E86FA32C4D">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>BDB22BBD-1452-213A-8980-48AECEC67DAF</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_entrada" id="2505F2A7-2C86-70C1-FADF-6EC089528EC4">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>933D3405-6F6E-9E31-D886-6736DA9F5208</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_salida" id="69E272A8-57D0-824F-F887-6A98B100D8D7">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>83194A6E-75C1-A4C6-63EE-0ED210A276CB</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion_estado" id="6CDD93E4-C49A-1D73-EB99-C660B3C8C460">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>ECD95180-6D0D-9BAE-22CD-D677726EF216</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOLICITUD_id_solicitud" id="8ADA016F-3A78-9352-CDAD-41ADD799F48F">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>701E9729-C0E5-4A02-6ED3-EF799FD00912</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="806EA701-6661-AF0E-4620-69FE5E709119" referredColumn="9C2E30E1-36AE-7A21-6EE4-9557CF51EC39"/>
+</associations>
+</Column>
+<Column name="MATERIAL_id_material" id="C24DEAC1-31EE-47C2-9B0E-57E1F3AC1B5C">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>3FCA5717-818C-31E0-1E65-6EFB2152E0F0</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4715814A-5C3F-9B2F-6668-9B3A8522E4DC" referredColumn="9525FC38-5823-443C-16BE-9917F5DDDBFA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1300C6E0-E8B9-DDC5-8134-8704E364F21E" name="SOLICITUD_MATERIAL_PK">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>C9C8CB20-4A1F-A671-8939-355490FE12F8</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27E75E32-0E6C-7464-42DE-5F41964CA97F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4281D47F-CC81-D148-4285-DF920D2B9E3D" name="SOLICITUD_MATERIAL_MATERIAL_FK">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>89513E1E-CE52-E507-BEFD-5314FA68A489</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C24DEAC1-31EE-47C2-9B0E-57E1F3AC1B5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7AD22DBE-ED69-E5FF-9E85-6EFC394FB7C5" name="SOLICITUD_MATERIAL_SOLICITUD_FK">
+<createdBy>benja</createdBy>
+<createdTime>2025-05-01 20:28:22 UTC</createdTime>
+<generatorID>F7A4794F-3050-330B-1B15-3CAA5F690BDC</generatorID>
+<ownerDesignName>SIGEM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8ADA016F-3A78-9352-CDAD-41ADD799F48F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
